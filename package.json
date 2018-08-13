@@ -1,0 +1,70 @@
+{
+  "name": "react-mui-datatables",
+  "version": "1.0.3",
+  "description": "Material UI v1 DataTable for React.it comes with features like sort,search,export csv,pagination.more options comming soon...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d lib --copy-files",
+    "prepublishOnly": "npm run transpile",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d examples/dist",
+    "publish-demo": "npm run build && npm run deploy"
+  },
+  "author": "Gihan Rangana",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "@material-ui/core": "^1.4.3",
+    "@material-ui/icons": "^2.0.1",
+    "react-csv": "^1.0.14"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "gh-pages": "^1.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.3",
+    "@material-ui/icons": "^2.0.1",
+    "react-csv": "^1.0.14",
+    "react-jss": "^8.6.1"
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GihanRangana/react-mui-datatables.git"
+  },
+  "keywords": [
+    "react",
+    "material-ui",
+    "mui-datatables",
+    "reactjs",
+    "material-design",
+    "datatable",
+    "react-material"
+  ],
+  "bugs": {
+    "url": "https://github.com/GihanRangana/react-mui-datatables/issues"
+  },
+  "homepage": "https://github.com/GihanRangana/react-mui-datatables#readme"
+}

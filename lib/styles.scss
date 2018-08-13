@@ -1,0 +1,15 @@
+
+    .table_toolbar{
+        padding: 0;
+        .searchBox{
+            flex-grow: 1;
+        }
+        .toolbar_left{
+            flex: 1 1 55%;
+        }
+        .table_actions{
+            flex: 0 0 45%;
+            text-align: right;
+        }
+
+    }

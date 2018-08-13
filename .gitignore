@@ -1,0 +1,7 @@
+# .gitignore
+
+node_modules
+dist
+src
+.idea
+index.js

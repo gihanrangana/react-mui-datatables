@@ -1,0 +1,11 @@
+.table_toolbar {
+  padding: 0; }
+  .table_toolbar .searchBox {
+    flex-grow: 1; }
+  .table_toolbar .toolbar_left {
+    flex: 1 1 55%; }
+  .table_toolbar .table_actions {
+    flex: 0 0 45%;
+    text-align: right; }
+
+/*# sourceMappingURL=styles.css.map */
