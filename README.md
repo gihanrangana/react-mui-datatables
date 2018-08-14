@@ -1,6 +1,6 @@
 # Material UI DataTables for react MaterialUI ^v1 - react-mui-datatables
 
-[![npm version](https://badge.fury.io/js/mui-datatables.svg)](https://badge.fury.io/js/mui-datatables)
+[![npm version](https://badge.fury.io/js/react-mui-datatables.svg)](https://badge.fury.io/js/react-mui-datatables)
 
 react-mui-datatables is table component for [Material-UI V1](https://www.material-ui.com). This vetsion comes with search,export csv,sort,paginations. more options coming soon.stay with us...
 
@@ -19,7 +19,7 @@ For a simple table:
 
 ```js
 
-import MuiDataTable from "../../lib";
+import MuiDataTable from "react-mui-datatables";
 import data from "./data";
 
 

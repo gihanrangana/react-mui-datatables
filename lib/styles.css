@@ -1,3 +1,8 @@
+
+.mui_datatables{
+  
+  overflow-x: auto
+}
 .table_toolbar {
   padding: 0; }
   .table_toolbar .searchBox {
