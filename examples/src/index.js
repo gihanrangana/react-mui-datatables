@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
-import MuiDataTable from "../../lib";
+import MuiDataTable from "../../src";
 import data from "./data";
 import { AppBar, Button, Paper, Toolbar, SvgIcon, IconButton } from "@material-ui/core/es/index";
 import { createGenerateClassName,createMuiTheme,MuiThemeProvider } from "@material-ui/core/styles";
@@ -78,7 +78,8 @@ class App extends Component {
             searchBox   : true, /* <-- search true or false */
             csv         : true, /* <-- csv download true or false */
             indexColumn : "fname", /* <-- add your data first unique column name for this like _id, i used fname because i don't have a _id field in my array */
-            darkTheme   : true
+            darkTheme   : true,
+            printButton: true
         };
         
         return (

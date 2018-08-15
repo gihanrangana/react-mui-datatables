@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/react-mui-datatables.svg)](https://badge.fury.io/js/react-mui-datatables)
 
-react-mui-datatables is table component for [Material-UI V1](https://www.material-ui.com). This vetsion comes with search,export csv,sort,paginations. more options coming soon.stay with us...
+react-mui-datatables is table component for [Material-UI V1](https://www.material-ui.com). This version comes with search,export csv,sort,pagination,print. more options coming soon.stay with us...
 
 
 ## Install
@@ -101,6 +101,7 @@ Use these as option object key.
 |**`searchBox`**|bool|true|You can remove search box using this option
 |**`csv`**|bool|true|You can remove csv download using this option
 |**`indexColumn`**|string||If add custom action button please set the indexColumn as your own array key. 
+|**`printButton`**|bool|true|You can disable print button using this. 
 
 ## Custom Styles
 You can styles using material ui CreateMuiTheme function.

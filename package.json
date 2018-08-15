@@ -1,6 +1,6 @@
 {
   "name": "react-mui-datatables",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Material UI v1 DataTable for React.it comes with features like sort,search,export csv,pagination.more options comming soon...",
   "main": "index.js",
   "scripts": {
@@ -44,7 +44,9 @@
     "@material-ui/core": "^1.4.3",
     "@material-ui/icons": "^2.0.1",
     "react-csv": "^1.0.14",
-    "react-jss": "^8.6.1"
+    "react-excel-workbook": "0.0.4",
+    "react-jss": "^8.6.1",
+    "react-to-print": "^2.0.0-alpha-2"
   },
   "directories": {
     "example": "examples",

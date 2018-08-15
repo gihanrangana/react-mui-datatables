@@ -1,15 +1,16 @@
-
-    .table_toolbar{
+.mui_datatables {
+    overflow-x: auto;
+    .table_toolbar {
         padding: 0;
-        .searchBox{
+        .searchBox {
             flex-grow: 1;
         }
-        .toolbar_left{
+        .toolbar_left {
             flex: 1 1 55%;
         }
-        .table_actions{
+        .table_actions {
             flex: 0 0 45%;
             text-align: right;
         }
-
     }
+}
